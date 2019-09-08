@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567906678979.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3761391324",
+    "id" : "643E822A",
+    "lastKnownWriteTime" : 1567906775,
+    "last_content_update" : 1567906775435,
+    "path" : "~/FALL 2019/STAT 411/hw2/Boxplot_nicotine_data/boxplot.R",
+    "project_path" : "boxplot.R",
+    "properties" : {
+        "cursorPosition" : "4,58",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
