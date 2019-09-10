@@ -1,0 +1,54 @@
+#Cameron Kirk
+#Part (f) assignment #2
+
+#Example data is percentage of families that are in upper income level
+upIncomePercent <- c(72.2, 31.9, 26.5, 29.1, 27.3, 8.6, 22.3, 26.5,
+                       20.4, 12.8, 25.1, 19.2, 24.1, 58.2, 68.1, 89.2,
+                       55.1, 9.4, 14.5, 13.9, 20.7, 17.9, 8.5, 55.4,
+                       38.1, 54.2, 21.5, 26.2, 59.1, 43.3)
+
+#(a) Calculate the sample mean
+mean(upIncomePercent)
+
+#(b) Calculate the sample median
+median(upIncomePercent)
+
+#(d) Compute the 10% trimmed mean. 
+#Compare with the results in (a)&(b) and comment 
+mean(upIncomePercent, trim = 0.1)
+
+#The trimmed sample mean has been calculated to be lower than the sample mean.
+#However, it is larger than the sample median.
+#The difference between the trimmed sample mean and the sample mean is 3%
+#I would think that both means calculated could be good represenation of the
+#center of the data set.
+
+-----------
+
+> #Cameron Kirk
+> #Part (f) assignment #2
+> 
+> #Example data is percentage of families that are in upper income level
+> upIncomePercent <- c(72.2, 31.9, 26.5, 29.1, 27.3, 8.6, 22.3, 26.5,
++                        20.4, 12.8, 25.1, 19.2, 24.1, 58.2, 68.1, 89.2,
++                        55.1, 9.4, 14.5, 13.9, 20.7, 17.9, 8.5, 55.4,
++                        38.1, 54.2, 21.5, 26.2, 59.1, 43.3)
+> 
+> #(a) Calculate the sample mean
+> mean(upIncomePercent)
+[1] 33.31
+> 
+> #(b) Calculate the sample median
+> median(upIncomePercent)
+[1] 26.35
+> 
+> #(d) Compute the 10% trimmed mean. 
+> #Compare with the results in (a)&(b) and comment 
+> mean(upIncomePercent, trim = 0.1)
+[1] 30.97083
+> 
+> #The trimmed sample mean has been calculated to be lower than the sample mean.
+> #However, it is larger than the sample median.
+> #The difference between the trimmed sample mean and the sample mean is 3%
+> #I would think that both means calculated could be good represenation of the
+> #center of the data set.
